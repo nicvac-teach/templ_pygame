@@ -1,7 +1,18 @@
 {
     "name": "Pygame con VNC",
-    "image": "ghcr.io/nicvac-teach/env_pygame:latest",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/devcontainers/features/desktop-lite:1": {
+            "password": "pygame",
+            "webPort": "6080",
+            "vncPort": "5901"
+        },
+        "ghcr.io/devcontainers/features/python:1": {
+            "version": "3.11"
+        }
+    },
     "forwardPorts": [6080, 5901],
+    "postCreateCommand": "pip install pygame pymunk",
     "customizations": {
         "vscode": {
             "extensions": [
