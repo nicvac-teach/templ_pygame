@@ -13,7 +13,7 @@ Pygame ha bisogno di una finestra grafica. Per aprirla:
 
 Si aprirà un desktop Linux nel browser.
 
-## ▶️ Eseguire un programma Pygame
+## ▶️ Test dell'ambiente grafico
 
 Nella finestra del desktop remoto (noVNC):
 
@@ -21,13 +21,17 @@ Nella finestra del desktop remoto (noVNC):
 2. Digita:
 ```bash
 cd /workspaces/*
-python test_pygame.py
+python test/test_pygame.py
 ```
 Usa le frecce direzionali per muovere il cerchio rosso.
 
-## ⚠️ Note importanti
+## Scaricare le lezioni
+1. Seleziona sulla sinitra il file Lezioni_scarica.py<br/>
+<img src="_docs/lezioni_scarica.png" width="30%">
+2. Eseguire lo script python<br/>
+<img src="_docs/lezioni_scarica_run.png" width="30%">
+3. Aprire sulla sinistra le lezioni contenute nella cartella **lezioni_pygame**
 
-- **Commit e push** — Per non perdere il lavoro, fai commit su Git
 
 ## 🔧 Risoluzione problemi
 
