@@ -1,0 +1,6 @@
+Template per pygame.
+Utile per generare un ambiente grafico con Codespace (VNC web).
+Per accelerare (di molto!) la creazione della macchina virtuale in Codespace creare un Prebuild:
+Settings / Codespace / Prebuild
+
+La prebuild scala più velocemente il credito codespace.
